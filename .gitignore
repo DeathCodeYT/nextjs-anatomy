@@ -1,0 +1,42 @@
+# dependencies
+/node_modules
+**/node_modules
+/temp
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+node_modules/
+# next.js
+/infoadmin/.next/
+/infoadmin/node_modules/
+/Backend/node_modules/
+/Backend/node_modules
+/infoclash/node_modules/
+/infoadmin/.next/
+/infoadmin/out/
+
+# production
+/infoadmin/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
